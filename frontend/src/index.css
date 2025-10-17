@@ -1,0 +1,21 @@
+
+/* For WebKit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px;              /* Scrollbar width */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Remove background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: purple;  /* Purple scrollbar */
+  border-radius: 10px;       /* Rounded edges */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;         /* Thin scrollbar */
+  scrollbar-color: purple transparent; /* Thumb color | Track color */
+}
+
