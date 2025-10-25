@@ -57,16 +57,18 @@ function Home() {
                   blur-3xl pointer-events-none"></div> */}
 
             <Navbar path={path} />
-           <img src="logo-white.png" alt="" className=" z-50 w-[60px] h-[60px] absolute top-[-12px] left-[-8px] md:mx-auto md:top-[-3px] md:left-[750px]"/>
+           <img src="logo-white.png" alt="" className=" z-50 w-[60px] h-[60px] absolute top-[-12px] left-[-8px] md:mx-auto md:top-[-3px] md:left-[750px] "/>
+           
             {/* <img src="hero.jpeg" alt="" className=" w-[100vw] h-[60vh] z-2 absolute top-0 right-0 opacity-20 pointer-events-none md:hidden" /> */}
              <div>
                 <img src="1.jpg" alt="" className="  w-[100vw] h-[85vh]  relative top-[-50px] right-[-1px] " />
+                
                 {/* <img src="herobg.png" alt="" className=" w-[100vw] h-[60vh]  relative top-[-67px] right-[-1px]  md:block" /> */}
              </div>
             
            <div className="bg-slate-900 h-[300vh]">
            
-            <h1 className='w-[80vw] text-2xl text-center relative top-[-400px] md:top-[-515px] left-[49px] font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent md:text-4xl md:mx-auto md:pb-1.5'>
+            <h1 className='w-[80vw] text-2xl text-center relative top-[-400px] md:top-[-515px] left-[49px] font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent md:text-4xl md:mx-auto md:pb-1.5 animate-bounce'>
   <span className="text-4xl md:text-7xl">E-CELL</span> NIT ANDHRA PRADESH
 </h1>
            <div className="relative top-[-380px] left-[133px] md:top-[-478px] md:left-[584px]">
@@ -88,7 +90,7 @@ function Home() {
             <p className='text-slate-400 text-[10px]  font-bold relative top-[196px] left-[54px] w-[80vw] text-center md:mx-auto md:text-xl'>At  <span className="font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent">NIT Andhra Pradesh</span>,we nurture the entrepreneurial spirit, providing students with the tools, mentorship, and ecosystem needed to build tomorrow's innovations.</p>
            
 
-            <div class="relative bg-[url('/3.jpg')] bg-cover bg-center bg-no-repeat opacity-90 mx-auto w-[80vw] h-[50vh] bg-black/20 backdrop-blur-md border border-cyan-500 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6  top-[340px] md:w-[100vw]">
+            <div class="relative bg-[url('/3.jpg')] bg-cover bg-center bg-no-repeat opacity-90 mx-auto w-[80vw] h-[50vh] bg-black/20 backdrop-blur-md border border-cyan-500 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6  top-[340px] md:w-[100vw] shadow-[0_0_30px_5px_rgba(59,130,246,0.8)] animate-pulse ">
                 <h2 className=' w-[80vw]  text-3xl text-center relative top-[-12px] left-[-26px]  mx-auto md:text-6xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent md:left-[30px]'>OUR PARTNERS</h2>
                 <h3 className='text-slate-400 w-[80vw] font-bold text-[15px] text-center relative top-[1px] left-[-23px]  mx-auto md:text-4xl md:left-[40px]'>Collaborating with industry leaders to create opportunities for our students</h3>
                 <div className="relative top-[64px] md:top-[25px] ">
@@ -126,7 +128,7 @@ function Home() {
              bg-black/20 text-white 
              border border-slate-500/20 
              rounded-3xl relative top-[590px] left-[0px]
-            hover:cursor-pointer border-l-cyan-600 border-r-cyan-600 hover:border-l-white hover:border-r-white hover:scale-170 transition-transform  text-center z-50 duration-400 hover:text-cyan-600 " 
+            hover:cursor-pointer border-l-cyan-600 border-r-cyan-600 hover:border-l-white hover:border-r-white hover:scale-110 hover:shadow-[0_0_20px_5px_rgba(59,130,246,0.7)] transition-all duration-400 text-center hover:text-cyan-600 " 
             
 >
     <Link to='/event'>View All Events</Link>

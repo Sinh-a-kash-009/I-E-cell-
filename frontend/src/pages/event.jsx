@@ -19,7 +19,7 @@ function Event() {
       <img src="1.jpg" alt="" className=" w-[100vw] h-[65vh] relative top-[-70px] pointer-events-none " />
       <div data-aos='zoom-in'>
         <div class="relative bg-[url('/5.jpg')] bg-cover bg-center bg-no-repeat opacity-90 mx-auto w-[100vw] h-[20vh] md:w-[100vw] bg-black/20 backdrop-blur-md border border-red-500 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6  top-[60px] text-center">
-        <h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent relative top-[-400px]">Our Event</h1>
+        <h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent relative top-[-400px] animate-bounce">Our Event</h1>
         <h3 className="text-xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent  relative top-[-40px]">Explore our journey of fostering innovation through impactful events and workshops</h3>
       </div>
       <div class=" bg-[url('/1.jpg')] relative md:bg-[url('/3.jpg')] bg-cover md:bg-cover   bg-repeat-y md:bg-no-repeat opacity-90 mx-auto w-[100vw] h-[530vh] md:w-[100vw] md:h-[300vh] bg-black/10 backdrop-blur-md border border-cyan-500 border-b-0 border-t-0 rounded-3xl p-6 top-[100px] text-center" >

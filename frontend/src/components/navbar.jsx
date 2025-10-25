@@ -48,7 +48,7 @@ function Navbar({path}) {
        <div class=" mx-auto w-[80vw] h-[10vh] md:w-[90vw] bg-black/20 backdrop-blur-md border border-slate-500 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6 sticky  top-0 z-50 hidden md:block">
             <div className="flex justify-between">
                <div className="flex">
-                 <p className="bg-slate-600 rounded-3xl w-[80px] text-center  hover:bg-slate-500 hover:cursor-pointer hover:scale-170 transition-transform duration-200 font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent "><Link to={values[0]}>{keys[0]}</Link></p>
+                 <p className="bg-slate-600 rounded-3xl w-[80px] text-center  hover:bg-slate-500 hover:cursor-pointer hover:scale-170 transition-transform duration-200 font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent animate-pulse"><Link to={values[0]}>{keys[0]}</Link></p>
                </div>
                 <div className="flex relative left-0.5 md:left-8">
                 <p className="text-white w-[60px] text-center  hover:cursor-pointer hover:scale-170 transition-transform duration-200 mr-4 font-bold hover:bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text hover:text-transparent "><Link to={values[1]}>{keys[1]}</Link></p>

@@ -24,9 +24,9 @@ function About(){
          <img src="logo-white.png" alt="" className=" z-50 w-[60px] h-[60px] absolute top-[-12px] left-[-8px] md:mx-auto md:top-[-3px] md:left-[750px]"/>
          <img src="1.jpg" alt="" className=" w-[100vw] h-[65vh] relative top-[-70px] pointer-events-none" />
          <div data-aos='zoom-in'>
-          <div class="mx-auto w-[100vw] h-[20vh] md:w-[100vw] bg-black/60 backdrop-blur-md border border-slate-500 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6 relative top-[60px] text-center"> 
-          <h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent relative top-[-370px]" >About Us</h1>
-        <h3 className=" text-xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent relative top-[-35px]">Empowering the next generation of innovators and entrepreneurs at NIT Andhra Pradesh</h3>
+          <div class="mx-auto w-[100vw] h-[20vh] md:w-[100vw] bg-black/60 backdrop-blur-md border border-slate-500 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6 relative top-[60px] text-center shadow-[0_0_30px_5px_rgba(59,130,246,0.8)] animate-pulse"> 
+          <h1 className="text-6xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent relative top-[-370px] animate-bounce" >About Us</h1>
+        <h3 className=" text-xl md:text-3xl font-extrabold bg-gradient-to-r from-blue-400 via-purple-500 to-cyan-400 bg-clip-text text-transparent relative top-[-35px] ">Empowering the next generation of innovators and entrepreneurs at NIT Andhra Pradesh</h3>
          </div>
          <div class="relative bg-[url('/3.jpg')] bg-cover bg-center bg-no-repeat opacity-90 mx-auto w-[100vw] h-[150vh] md:w-[100vw] md:h-[110vh] bg-black/30 backdrop-blur-md border border-cyan-500 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6 top-[86px] text-center ">
           <h3>Innovation and Entrepreneurship Cell, NIT Andhra Pradesh, was initiated by <span className="font-extrabold text-cyan-500"> Mr. Kiran Babu Pilla</span> along with <span className="font-extrabold text-cyan-500"> Mr. Chanakya Rajappagari</span> (final year mechanical) and <span className="font-extrabold text-cyan-500">Mr. M J Saura Siddarth</span> (final year civil), forming a body of 57 members including General Secretary, Joint Secretaries, executive members, and associate cell members from all years and departments. The Cell officially began its journey on <span className="font-extrabold text-cyan-500">October 29, 2018</span>.</h3>
@@ -47,7 +47,7 @@ function About(){
                     />
                 </div>
          </div>
-         <div class="relative bg-[url('/5.jpg')] bg-contain bg-repeat-y md:bg-cover bg-center md:bg-no-repeat opacity-90 mx-auto w-[100vw] h-[180vh] md:w-[100vw] md:h-[110vh] bg-black/30 backdrop-blur-md border border-red-400 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6 top-[150px] text-center ">
+         <div class="relative bg-[url('/5.jpg')] bg-contain bg-repeat-y md:bg-cover bg-center md:bg-no-repeat opacity-90 mx-auto w-[100vw] h-[180vh] md:w-[100vw] md:h-[110vh] bg-black/30 backdrop-blur-md border border-red-400 border-opacity-20 border-b-0 border-t-0 rounded-3xl p-6 top-[150px] text-center shadow-[0_0_30px_5px_rgba(239,68,68,0.8)] animate-pulse">
           <h1 className="text-6xl font-extrabold bg-gradient-to-r from-red-500 via-red-700 to-red-900 bg-clip-text text-transparent relative top-[-80px]">Our journey</h1>
         <h3 className="text-lg font-bold text-slate-300 relative top-[-15px]">Key milestones in our mission to foster innovation and entrepreneurship</h3>
         <div className="relative left-[-27px]">
